@@ -12,6 +12,10 @@ variable "key_name" {
   description = "Desired name of AWS key pair"
 }
 
+variable "key_path" {
+  description = "Desired name of AWS Private Key Path"
+}
+
 variable "aws_region" {
   description = "AWS region to launch servers."
   default     = "us-west-2"
